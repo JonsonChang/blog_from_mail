@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+/*頁碼*/
+#page {
+	/*width:707px;*/
+	position:relative;
+	text-align:center;
+}
+/*
+#page div#now span {
+	color:#0a2d81;
+	font-weight:bold;
+}
+*/
+#page div#pages {
+	position:relative;
+	margin-top:24px;
+	display:inline-block;
+}
+#page div#pages a,
+#page div#pages div,
+#page div#pages span{
+	float:left;
+	margin:0 5px;
+	display:block;
+	color:#8e3357;
+	/*background-color:#e54700;*/
+	padding:0 3px;
+	line-height:19px;
+	position:relative;
+}
+#page div#pages span{padding:0;margin:0;}
+#page div#pages div ,
+#page div#pages a:hover
+{
+	color:#000;
+	font-size:12px;
+	text-decoration:underline;
+}
+#page div#pages a.btn {
+	margin:2px 0 0 0;
+	width:19px;
+	height:19px;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding:0px 5px 0;
+	background-color:#FFF;
+}
+/*
+#page div#pages a.First {
+	background-image:url(../images/bg_page_first_off.gif);
+}
+#page div#pages a.First:hover {
+	background-image:url(../images/bg_page_first_on.gif);
+}
+*/
+#page div#pages a.Previous {
+	text-decoration:none;
+	/*background-image:url(../images/bg_page_left_off.png);*/
+}
+/*
+#page div#pages a.Previous:hover {
+	background-image:url(../images/bg_page_previous_on.gif);
+}
+*/
+#page div#pages a.Next {
+	text-decoration:none;
+	/*background-image:url(../images/bg_page_right_off.png);*/
+}
+/*
+#page div#pages a.Next:hover {
+	background-image:url(../images/bg_page_next_on.gif);
+}
+
+#page div#pages a.Last {
+	background-image:url(../images/bg_page_last_off.gif);
+}
+#page div#pages a.Last:hover {
+	background-image:url(../images/bg_page_last_on.gif);
+}
+*/

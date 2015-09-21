@@ -1,0 +1,62 @@
+
+/*表格*/
+.form {
+	width:100%;
+	text-align:center;
+}
+.form table {border:1px solid #999;}
+.form td {
+	vertical-align:top;
+	text-align:left;
+	border:1px solid #ccc;
+	color:#8e3357;
+	font-weight:bold;
+	padding:5px;
+}
+.form td.left {
+	text-align:right;
+	padding:0 20px;
+	width:60px;
+	background-image:url(../images/icon_board_dot.png);
+	background-repeat:no-repeat;
+	background-position:10px 8px;
+}
+.form td.right {
+	text-align:left;
+}
+.require {
+	color: #f00;
+}
+.inputs ,.inputs2 ,.inputs3{
+	border:solid 1px #828080;
+	height:22px;
+	padding:0 5px;
+	color:#8e3357;
+	margin:0 5px;
+}
+.inputs {
+	width:140px;
+}
+.inputs2 {
+	width:54px;
+}
+.inputs3 {
+	width:480px;
+}
+.textarea {
+	border:solid 1px #d4d4d4;
+	width:574px;
+	height:83px;
+	color:#42464c;
+	background-color:#f4f4f4;
+}
+.form  input.btn {
+	float:right;
+	background-image:url(../images/btn_send.png);
+	width:104px;
+	height:25px;
+	border:0px;
+	text-align:center;
+	cursor:pointer;
+}
+
